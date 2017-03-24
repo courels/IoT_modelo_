@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT_modelo_
+  host: IoTmodelo01
+  disk_quota: 1024M
+  services:
+  - IoT_modelo_-cloudantNoSQLDB
+  - IoT_modelo_-iotf-service
